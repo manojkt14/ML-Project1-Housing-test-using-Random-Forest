@@ -15,5 +15,3 @@ jupyter
 pip freeze > requirements.txt
 ```
 
-That will capture the **exact versions** you used.
-
