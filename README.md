@@ -1,3 +1,4 @@
+
 # 🏡 ML Project 1 - Housing Price Prediction (Random Forest)
 
 This project predicts **housing prices** using the **Random Forest Regression** model.  
@@ -33,12 +34,73 @@ ML-Project1-Housing-test-using-Random-Forest/
 │── reports/             # EDA reports, charts, model results
 │── README.md            # Project documentation
 │── requirements.txt     # Python dependencies
+````
 
 ---
 
 ## ⚡ Installation
 
 Clone the repository and install dependencies:
+
+```bash
 git clone https://github.com/username/ML-Project1-Housing-test-using-Random-Forest.git
 cd ML-Project1-Housing-test-using-Random-Forest
 pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Usage
+
+1. Prepare the dataset and place it in the `data/` folder.
+2. Run preprocessing & training:
+
+   ```bash
+   python src/train_model.py
+   ```
+3. Test predictions on new data:
+
+   ```bash
+   python src/predict.py --input data/test.csv
+   ```
+4. View results in `reports/`.
+
+---
+
+## 📊 Model Performance
+
+* **R² Score:** 0.XX
+* **RMSE:** XX
+* **MAE:** XX
+
+(*Update with your actual evaluation results*)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork this repo
+2. Create your feature branch (`git checkout -b feature-name`)
+3. Commit changes (`git commit -m 'Added feature'`)
+4. Push to branch (`git push origin feature-name`)
+5. Open a Pull Request
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file.
+
+---
+
+## 👤 Author
+
+* **Your Name**
+  [GitHub](https://github.com/username) | [LinkedIn](https://linkedin.com/in/yourprofile)
+
+```
+
+👉 Do you want me to also **create a `requirements.txt` file** for this project (listing all Python dependencies like scikit-learn, pandas, numpy, etc.) so it’s ready for Git?
+```
