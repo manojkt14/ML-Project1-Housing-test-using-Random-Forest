@@ -98,9 +98,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 * **Your Name**
-  [GitHub](https://github.com/username) | [LinkedIn](https://linkedin.com/in/yourprofile)
+  [GitHub](https://github.com/username](https://github.com/manojkt14) | [LinkedIn](https://www.linkedin.com/in/manoj-kumar-67983918a/)
 
 ```
 
-👉 Do you want me to also **create a `requirements.txt` file** for this project (listing all Python dependencies like scikit-learn, pandas, numpy, etc.) so it’s ready for Git?
-```
