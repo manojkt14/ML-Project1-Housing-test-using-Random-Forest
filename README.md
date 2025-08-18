@@ -69,11 +69,9 @@ pip install -r requirements.txt
 
 ## 📊 Model Performance
 
-* **R² Score:** 0.XX
-* **RMSE:** XX
-* **MAE:** XX
-
-(*Update with your actual evaluation results*)
+* **R² Score:** 0.78
+* **RMSE:** 57917.70
+* **MAE:** 58111.01
 
 ---
 
@@ -97,8 +95,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-* **Your Name**
-  [GitHub](https://github.com/username](https://github.com/manojkt14) | [LinkedIn](https://www.linkedin.com/in/manoj-kumar-67983918a/)
+* **Manoj**
+  [GitHub](https://github.com/manojkt14) | [LinkedIn](https://www.linkedin.com/in/manoj-kumar-67983918a/)
 
 ```
 
