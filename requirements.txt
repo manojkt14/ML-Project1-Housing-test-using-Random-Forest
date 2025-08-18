@@ -1,0 +1,19 @@
+
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+jupyter
+
+📌 Notes:
+
+* `jupyter` is optional (only if you’re running Jupyter notebooks).
+* If you want reproducibility, you can freeze versions by running:
+
+```bash
+pip freeze > requirements.txt
+```
+
+That will capture the **exact versions** you used.
+
