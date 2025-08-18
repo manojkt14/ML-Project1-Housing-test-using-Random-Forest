@@ -52,20 +52,27 @@ pip install -r requirements.txt
 
 ## ▶️ Usage (Google Colab)
 1. Open the project notebook in Google Colab.  
-  
-     ```
-     https://colab.research.google.com/drive/1_20DLhZnsY8BhueLQL5y6XyM7IWiWLFF#scrollTo=12fd9f0a
-     ```
-2. Make sure the dataset is available:  
-   - Upload manually to Colab `data/` folder, **OR**  
-   - Mount Google Drive and place the dataset there.  
-     ```python
-     from google.colab import drive
-     drive.mount('/content/drive')
-     ```
-3. Install required dependencies (if not already available in Colab):  
-   ```python
+```
+https://colab.research.google.com/drive/1_20DLhZnsY8BhueLQL5y6XyM7IWiWLFF#scrollTo=cYMIvnPF3-nI
+````
+
+2. 📂 **Dataset Path (Google Drive)**  
+This project uses the **California Housing dataset** stored in Google Drive.  
+Make sure to mount Google Drive in Colab before running the notebook:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Dataset path
+data_path = "/content/drive/MyDrive/Colab Notebooks/california_housing_test.csv"
+````
+
+3. Install required dependencies (if not already available in Colab):
+
+   ```bash
    !pip install -r requirements.txt
+   ```
 
 ---
 
