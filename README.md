@@ -33,3 +33,12 @@ ML-Project1-Housing-test-using-Random-Forest/
 │── reports/             # EDA reports, charts, model results
 │── README.md            # Project documentation
 │── requirements.txt     # Python dependencies
+
+---
+
+## ⚡ Installation
+
+Clone the repository and install dependencies:
+git clone https://github.com/username/ML-Project1-Housing-test-using-Random-Forest.git
+cd ML-Project1-Housing-test-using-Random-Forest
+pip install -r requirements.txt
