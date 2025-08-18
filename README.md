@@ -67,9 +67,9 @@ Install required dependencies (if not already available in Colab):
 
 ## 📊 Model Performance
 
-* **R² Score:** 0.78
-* **RMSE:** 57917.70
-* **MAE:** 58111.01
+* **R² Score:** 0.81
+* **RMSE:** 49291.47
+* **MAE:** 32123.39
 
 ---
 
