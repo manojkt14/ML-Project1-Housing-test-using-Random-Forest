@@ -43,27 +43,29 @@ ML-Project1-Housing-test-using-Random-Forest/
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/username/ML-Project1-Housing-test-using-Random-Forest.git
+git clone https://github.com/manojkt14/ML-Project1-Housing-test-using-Random-Forest.git
 cd ML-Project1-Housing-test-using-Random-Forest
 pip install -r requirements.txt
 ```
 
 ---
 
-## ▶️ Usage
-
-1. Prepare the dataset and place it in the `data/` folder.
-2. Run preprocessing & training:
-
-   ```bash
-   python src/train_model.py
-   ```
-3. Test predictions on new data:
-
-   ```bash
-   python src/predict.py --input data/test.csv
-   ```
-4. View results in `reports/`.
+## ▶️ Usage (Google Colab)
+1. Open the project notebook in Google Colab.  
+  
+     ```
+     https://colab.research.google.com/drive/1_20DLhZnsY8BhueLQL5y6XyM7IWiWLFF#scrollTo=12fd9f0a
+     ```
+2. Make sure the dataset is available:  
+   - Upload manually to Colab `data/` folder, **OR**  
+   - Mount Google Drive and place the dataset there.  
+     ```python
+     from google.colab import drive
+     drive.mount('/content/drive')
+     ```
+3. Install required dependencies (if not already available in Colab):  
+   ```python
+   !pip install -r requirements.txt
 
 ---
 
