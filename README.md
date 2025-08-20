@@ -45,7 +45,7 @@ Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/manojkt14/ML-Project1-Housing-test-using-Random-Forest.git
 cd ML-Project1-Housing-test-using-Random-Forest
-pip install -r requirements.txt
+
 ```
 
 ---
